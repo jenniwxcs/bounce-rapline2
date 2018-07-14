@@ -201,7 +201,7 @@ App = (function(_super) {
 
   App.prototype.readURL = function() {
     if (!window.location.hash) {
-      return;
+      return this.deserializeBounce();
     }
     return this.deserializeBounce(window.location.hash.slice(1));
   };
