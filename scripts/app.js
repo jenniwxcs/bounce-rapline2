@@ -67,7 +67,7 @@ App = (function(_super) {
     this.$main = this.$(".main-view");
     this.centerView();
     $(window).on("resize", this.centerView);
-    this.playIntro();
+//    this.playIntro();
     this.preferences = new PreferencesView;
     this.boxView = new BoxView;
     this.exportView = new ExportView;
