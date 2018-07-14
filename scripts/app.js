@@ -216,7 +216,7 @@ App = (function(_super) {
   App.prototype.deserializeBounce = function(str) {
     var bounce, e, options;
     if (!str) {
-      return;
+      str = "{l:1,s:[{T:%22t%22,e:%22b%22,d:1000,D:0,f:{x:-500,y:0},t:{x:0,y:0},s:5,b:2},{T:%22k%22,e:%22s%22,d:1000,D:0,f:{x:0,y:0},t:{x:120,y:0},s:3,b:4},{T:%22t%22,e:%22S%22,d:1000,D:800,f:{x:0,y:0},t:{x:0,y:-50},s:2,b:4},{T:%22t%22,e:%22b%22,d:1000,D:1800,f:{x:0,y:0},t:{x:500,y:0},s:3,b:4},{T:%22k%22,e:%22b%22,d:1000,D:1750,f:{x:0,y:0},t:{x:40,y:0},s:3,b:4}]}";
     }
     bounce = new Bounce;
     options = null;
